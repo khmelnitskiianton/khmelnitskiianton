@@ -5,6 +5,7 @@
 - 📫 How to reach me: https://t.me/ivansiniczin
 
 ## My favourite projects ❤️‍🔥
++ [SCC](https://github.com/khmelnitskiianton/SCC)
 + [Differentiator](https://github.com/khmelnitskiianton/Differentiator)
 + [Processor](https://github.com/khmelnitskiianton/Processor)
 + [Akinator](https://github.com/khmelnitskiianton/Akinator)
