@@ -3,6 +3,7 @@
 - 🔭 I’m currently working on projects on C/ASM
 - 🌱 I’m currently learning C/ASM
 - 📫 How to reach me: https://t.me/ivansiniczin
+- [Git-Helper](https://github.com/khmelnitskiianton/khmelnitskiianton/blob/main/git-how-to.md)
 
 ## My favourite projects ❤️‍🔥
 + [SCC](https://github.com/khmelnitskiianton/SCC)
