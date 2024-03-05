@@ -6,7 +6,7 @@
 - [Git-Helper](https://github.com/khmelnitskiianton/khmelnitskiianton/blob/main/git-how-to.md)
 
 ## My favourite projects ❤️‍🔥
-+ [SCC](https://github.com/khmelnitskiianton/SCC)
++ [MyLanguage](https://github.com/khmelnitskiianton/MyLanguage)
 + [Differentiator](https://github.com/khmelnitskiianton/Differentiator)
 + [Processor](https://github.com/khmelnitskiianton/Processor)
 + [Akinator](https://github.com/khmelnitskiianton/Akinator)
