@@ -11,3 +11,6 @@
 + [Processor](https://github.com/khmelnitskiianton/Processor)
 + [Akinator](https://github.com/khmelnitskiianton/Akinator)
 + [Labs](https://github.com/khmelnitskiianton/Labs)
+
+## Stats
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=khmelnitskiianton&hide=html,scss,stylus,blade,jupyter%20notebook,dockerfile,typescript,tex&theme=tokyonight&show_icons=true&langs_count=7)
