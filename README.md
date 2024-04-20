@@ -7,6 +7,7 @@
 
 ## My favourite projects ❤️‍🔥
 + [MyLanguage](https://github.com/khmelnitskiianton/MyLanguage)
++ [Hash Table](https://github.com/khmelnitskiianton/HashTable)
 + [Differentiator](https://github.com/khmelnitskiianton/Differentiator)
 + [Processor](https://github.com/khmelnitskiianton/Processor)
 + [Akinator](https://github.com/khmelnitskiianton/Akinator)
