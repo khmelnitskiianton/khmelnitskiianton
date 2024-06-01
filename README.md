@@ -2,7 +2,7 @@
 
 - 🔭 I’m currently working on projects on C/ASM
 - 📫 How to reach me: [@ivansiniczin](https://t.me/ivansiniczin)
-- [Git-Helper](https://github.com/khmelnitskiianton/khmelnitskiianton/blob/main/git-how-to.md)
+- My Resume: [CV](https://github.com/khmelnitskiianton/khmelnitskiianton/blob/main/CV_2024.pdf)
 
 ## My favourite projects ❤️‍🔥
 + [Language](https://github.com/khmelnitskiianton/Language) - translation system from my language to NASM.
