@@ -1,0 +1,91 @@
+\documentclass[margin,line]{resume}
+\usepackage[fontsize=11pt]{fontsize}
+\usepackage[latin1]{inputenc}
+\usepackage[english,french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,bm}
+\usepackage{fontawesome5}
+\usepackage{graphicx,wrapfig}
+\usepackage{url}
+\usepackage{pifont}
+\usepackage[colorlinks=true, pdfstartview=FitV, linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
+\pdfcompresslevel=9
+\usepackage{tcolorbox}
+\newtcbox{\mytcbox}{
+before={}, % code before the box
+after={\ }, % code after the box
+box align=base, % 
+size=fbox,
+fontupper=\scriptsize,
+boxrule=0.35mm, % rule thickness
+arc=1.25mm, % rounding radius
+colframe=gray,%
+colback=white, % background color
+before upper={\strut}, % insert invisible rule before the box content to have uniform height
+}
+
+\begin{document}{\LARGE \textbf{Hmelnitskiy Anton}}
+\begin{resume}
+
+% === PICTURE ===
+
+    \vspace{0.5cm}
+    \begin{wrapfigure}{R}{0.15\textwidth}
+         \vspace{-1.3cm}
+        \begin{center}
+        \includegraphics[width=0.23\textwidth]{Foto.jpg}
+        \end{center}
+         \vspace{-1cm}
+    \end{wrapfigure}
+
+% === PERSONAL INFO ===
+ 
+    \section{\mysidestyle Personal\\Information}
+    \noindent
+    \begin{align*}
+    &\text{\faIcon{school} \space}     \texttt{University:}         && \href{https://mipt.ru/}{MIPT} \\
+    &\text{\faGithub \space}         \texttt{ Github:}         && \href{https://github.com/khmelnitskiianton}{khmelnitskiianton} \\ 
+    &\text{\faTelegram \space}        \texttt{ Telegram:}    && \href{https://t.me/ivansiniczin}{@ivansiniczin} \\
+    &\text{\faIcon{envelope} \space}  \texttt{MailBox:} && \href{khmelnitskiianton@mail.ru}{khmelnitskiianton@mail.ru} 
+    \end{align*}
+% === OBJECTIVE ===
+     I'm first-year student of the Department of Radio Engineering and Computer Technology (DREC) at the Moscow Institute of Physics and Technology (MIPT, Phystech). I completed Ilya Dedinsky's "System programming and compiler technology course" (Grade in 2 term: 9/10), where I gained skills in managing large projects, debugging, and code optimization. My most interesting projects include a translator from my own language to assembler, a differentiator that generates a \LaTeX \space book, and projects focused on low-level code optimizations. I also have experience in Python and have worked on lab reports involving graph plotting and approximation.\\
+     GPA: 7.6/10.
+% === Projects ===
+    \section{\mysidestyle Main  Projects}
+    \begin{itemize}
+   		\item[\ding{114}] \textbf{\textsf{Language}} \href{https://github.com/khmelnitskiianton/Language}{(GitHub)} \vspace{2pt} \\
+            \mytcbox{C} \space \mytcbox{NASM} \space \mytcbox{Translation} \vspace{4pt} \\
+            Developed a translation system that converts from code on my language to binary tree and next to NASM. Consists of FronEnd, BackEnd and includes parser, lexical analyzer and translator to assembler with standard library.
+            \item[\ding{114}] \textbf{\textsf{Differentiator}} \href{https://github.com/khmelnitskiianton/Differentiator}{(GitHub)} \vspace{2pt} \\
+            \mytcbox{C} \space \mytcbox{Python} \mytcbox{GraphViz} \space \mytcbox{\LaTeX} \vspace{4pt} \\
+            Created a tool that differentiates expressions and generates a \LaTeX \space book. The generated logs (in addition to GraphViz) contain randomly generated jokes, plotted graph using Matplotlib. I parse expression, create binary tree, differentiate it and write to .tex file.
+            \item[\ding{114}] \textbf{\textsf{HashTable}} \href{https://github.com/khmelnitskiianton/HashTable}{(GitHub)} \vspace{2pt} \\
+            \mytcbox{C} \space \mytcbox{Assembler} \mytcbox{SIMD} \space \mytcbox{Perf} \vspace{4pt} \\
+            Project of hash table creation with research of working speed. In this project I worked with profilier(Perf), analyzed distributions of different hash functions and used low level optimizations like SIMD, assembler inserts and aligning to increase speed of hash table.
+            \item[\ding{114}] \textbf{\textsf{Mandelbrot Set}} \href{https://github.com/khmelnitskiianton/AsmCx86}{(GitHub)} \vspace{2pt} \\
+            \mytcbox{C} \space \mytcbox{SDL} \space \mytcbox{AVX} \vspace{4pt} \\
+            Visualized the Mandelbrot set using SDL/SDL2, comparing different pixel processing functions. I measured FPS and execution time using rdtsc(), and compared various optimization combinations: standard, with merged pixels, and with AVX instructions with GCC's -O0 and -O3 optimizations.
+    \end{itemize}
+
+% === SKILLS ===
+       
+    \section{\mysidestyle Hard Skills}
+    \begin{description}
+		\item[Programming languages:] C, x86 Assembler, Python, Shell, Bash.
+            \item[Other languages:] Markdown, dot, HTML, \LaTeX, MS Office, LibreOffice. 
+		\item[Tools:] Git, Make, CMake, Perf, EDB, IDA.
+            \item[Libraries:] SDL/SDL2, Matplotlib, GraphViz.
+            \item[Languages:] Russian(Native), English(B1).
+    \end{description}
+
+    \vspace{1pt}
+
+    \section{\mysidestyle Soft Skills}
+    Communication, responsibility, motivation, creativity.
+
+    \section{\mysidestyle Hobby}
+    Table tennis, volleyball, board games, watching movies, listening to music.
+     
+\end{resume}   
+\end{document}
