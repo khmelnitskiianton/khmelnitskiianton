@@ -1,7 +1,7 @@
 ## Hello there 👋
 
 - 🔭 I’m currently working on projects on C/C++/ASM
-- 📫 How to reach me: [@ivansiniczin](https://t.me/ivansiniczin)
+- 📫 How to reach me: [iwan.siniczin2018@yandex.ru](iwan.siniczin2018@yandex.ru)
 - 📄 My resume: [CV](https://github.com/khmelnitskiianton/khmelnitskiianton/blob/main/CV_HmelnitskiyAA.pdf)
 
 ## My favorite projects ❤️‍🔥
