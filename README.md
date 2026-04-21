@@ -2,7 +2,7 @@
 
 - 📚 I’m a C++ software engineer.
 - 🔭 My interests are in: compiler technologies, software architecture.
-- 📫 How to reach me: [iwan.siniczin2018@yandex.ru](iwan.siniczin2018@yandex.ru)
+- 📫 How to reach me: [khmelnitskiyaa@gmail.com](khmelnitskiyaa@gmail.com)
 - 📄 My resume: [CV](https://github.com/khmelnitskiianton/khmelnitskiianton/blob/main/CV_HmelnitskiyAA.pdf)
 
 ## My favorite projects ❤️‍🔥
